@@ -4,9 +4,9 @@ import os
 
 ### Author: Bilal Sharif
 
-# checking if both input and ouput file is provided
+# checking if both input and output file is provided
 if len(sys.argv) != 3:
-    sys.exit(f"EUsage: {os.path.basename(sys.argv[0])} <probes_file> <probes_output>\n\n")
+    sys.exit(f"Usage: {os.path.basename(sys.argv[0])} <probes_file> <probes_output>\n\n")
 
 probes_file = sys.argv[1]
 probes_output = sys.argv[2]
